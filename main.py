@@ -1,7 +1,8 @@
 import requests
 from flask import *
 app = Flask(__name__)
-@app.route("https://api-flaskb.herokuapp.com/e")
+@app.route("https://apiflaskl.herokuapp.com/")
 def f():
 	return "Hello Word ! "
-app.run(host='0.0.0.0', port=8080)
+if __name__ =="__main__":
+	app.run()
